@@ -5,3 +5,87 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  body {
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: top left, bottom right;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  
+  .title {
+    width: 400px;
+    font-size: larger;
+    font-size: bold;
+    font-size: 25px;
+    color: rgb(53, 10, 85);
+  }
+
+  .desc-title {
+    color: rgb(133, 95, 133);
+    padding: 0;
+    margin: 0;
+    width: 390px;
+    font-size: 19px;
+  }
+  
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 230px;
+  }
+
+
+  .stars {
+    width: 85px;
+    height: 20px;
+    background-image: url('icon-star.svg');
+    background-repeat: repeat-x;
+    background-size: 17px 17px;
+  }
+
+  .moon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    padding: 20px 15px;
+    margin: 20px;
+    background-color: rgb(244, 238, 254);
+    border-radius: 10px;
+  }
+
+  .moon b {
+    padding-left: 20px;
+    color: rgb(53, 10, 85);
+  }
+
+  .one {
+    position: relative;
+    right: 50px;
+  }
+
+  .three {
+    position: relative;
+    left: 50px;
+  }
+
+  
+
+  
+  
+
+  
